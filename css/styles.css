@@ -241,7 +241,38 @@ pre code {
   color: inherit;
   word-break: normal;
 }
-
+.i{
+  text-align: center;
+}
+.i2{
+ text-align: center;
+}
+.div{
+  margin-left: 5rem !important;
+}
+.p{
+  margin-top: 3rem !important;
+ text-align: center;
+  font-size: 20px;
+}
+.center{
+  position: center;
+  font-size: 20px;
+  text-align: center;
+}
+main{
+    background-image: url("https://cdn.hipwallpaper.com/i/63/12/Yr5lkf.jpg");
+background-repeat: no-repeat;
+padding: 20px;
+}
+.ma{
+  background-image: url("https://cdn.hipwallpaper.com/i/63/12/Yr5lkf.jpg");
+background-repeat: no-repeat;
+padding: 20px;
+}
+.a{
+ margin-left: 8rem !important;
+}
 code {
   font-size: 0.875em;
   color: #d63384;
@@ -6950,7 +6981,7 @@ textarea.form-control-lg {
 }
 
 .mt-4 {
-  margin-top: 1.5rem !important;
+ text-align: center;
 }
 
 .mt-5 {
@@ -7390,6 +7421,8 @@ textarea.form-control-lg {
 
 .text-muted {
   color: #6c757d !important;
+  margin: auto;
+  font-size: 20px;
 }
 
 .text-black-50 {
@@ -7429,7 +7462,7 @@ textarea.form-control-lg {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #212529 !important;
 }
 
 .bg-dark {
@@ -10957,7 +10990,7 @@ body {
 }
 
 .img-error {
-  max-width: 20rem;
+  max-width: 1000rem;
 }
 
 .nav .nav-link .sb-nav-link-icon,
