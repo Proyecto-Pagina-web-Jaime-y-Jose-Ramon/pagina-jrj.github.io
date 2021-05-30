@@ -247,9 +247,6 @@ pre code {
 .i2{
  text-align: center;
 }
-.i3{
-  width: 700px; height: 500px;
-}
 .div{
   margin-left: 5rem !important;
 }
@@ -265,7 +262,7 @@ pre code {
 }
 main{
     background-image: url("https://cdn.hipwallpaper.com/i/63/12/Yr5lkf.jpg");
-padding: 20px;
+    padding: 20px;
 }
 .ma{
   background-image: url("https://cdn.hipwallpaper.com/i/63/12/Yr5lkf.jpg");
