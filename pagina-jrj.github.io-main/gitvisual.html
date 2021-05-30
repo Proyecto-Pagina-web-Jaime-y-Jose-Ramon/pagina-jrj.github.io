@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Tutorial de Git</title>
+        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="sb-nav-fixed">
+        <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+            <!-- Navbar Brand-->
+            <a class="navbar-brand ps-3" href="index.html">Página principal</a>
+            <!-- Sidebar Toggle-->
+            <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
+        </nav>
+        <div id="layoutSidenav">
+            <div id="layoutSidenav_nav">
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                    <div class="sb-sidenav-menu">
+                        <div class="nav">
+                            <div class="sb-sidenav-menu-heading"></div>
+                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Menú
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="local.html">Git Local</a>
+                                    <a class="nav-link" href="github.html">Git Hub</a>
+                                    <a class="nav-link" href="gitvisual.html">Git vs Visual Studio 2019</a>
+                                </nav>
+                            </div>
+                    
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div id="layoutSidenav_content">
+                <main>
+                   <h1  class="mt-4">Git vs Visual Studio 2019</h1>
+                                      <div class="center">
+                   <h2>¿Cómo usar Git en Visual Studio?</h2>
+                   <p>Hay 3 formas de usar Git en Visual Studio:<br>
+                        1- Abrimos un repositorio de Git ya creado.<br>
+                        2- Creamos un nuevo repositorio de Git.<br>
+                        3- Clonamos un repositorio de Git ya creado.
+                    </p>
+
+                    <h2>Añadir repositorio existente</h2>
+                   <p>Si tenemos algún repositorio creado previamente podremos abrirlo siguiendo estos pasos:<br>
+                    <img src="vs3.png"><br>
+                    Aquí podremos ver los repositorios locales que tenemos creados.
+                    </p>
+
+                   <h2>Crear un repositorio</h2>
+                   <p>Vamos al menú superior de Visual Studio sobre GIT > "Aplicar Push a un servicio GIT"<br>
+                    <img src="vs2.png"><br>
+                    Desde esta ventana podremos crear el repositorio GIT y darle los parámetros que queramos como por ejemplo<br>
+                    ponerlo en privado o en público o crearlo en local o en remoto.
+                    </p>
+
+                    <h2>Clonar repositorio</h2>
+                   <p>Clonar un repositorio permite modificar el código para posteriormente añadirlo al proyecto final. Además permite ver los cambios que han ocurrido en el código del proyecto, saber quien ha modificado cada cosa... <br>
+                    Para clonar un repositorio hacemos clic sobre GIT y luego sobre clonar repositorio.<br>
+                    <img src="vs.png">
+                    </p>
+
+                    <h2>Caracteristicas del repositorio</h2>
+                   <p>Una vez tenemos un repositorio seleccionado podemos ver el estado de este mismo abajo a la derecha de la pantalla de visual studio<br>
+                    <img src="https://dielop101.github.io/images/GitVisualStudio/status-01.png"><br>
+                    La flecha hacia arriba de la derecha del todo indica los commits pendientes de realizar push, el lapiz indica los cambios en el area de ensayo, a la derecha vemos el repositorio en el que nos encontramos y las dos flechas de la derecha del todo indican la rama actual.<br>
+                    Mientras vamos trabajando en el proyecto, Visual Studio realiza un seguimiento de los cambios. Además. desde esta ventana podremos realizar commits.<br>
+                    <img src="vs4.png"><br>
+                    Los cambios se pueden ver haciendo clic en el botón Git Changes en el explorador de archivos.
+                    </p>
+
+                    <h2>Crear una rama</h2>
+                    <p>Además de repositorios, también podremos crear ramas.<br>
+                        <img src="vs6.png"><br>
+                    </p>
+                    </div>
+                </main>
+                <footer class="py-4 bg-light mt-auto">
+                    <div class="container-fluid px-4">
+                        <div class="d-flex align-items-center justify-content-between small">
+                            <div class="text-muted">Copyright &copy; Your Website 2021</div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+        <script src="assets/demo/chart-area-demo.js"></script>
+        <script src="assets/demo/chart-bar-demo.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
+        <script src="js/datatables-simple-demo.js"></script>
+    </body>
+</html>
